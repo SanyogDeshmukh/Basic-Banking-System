@@ -1,0 +1,33 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+ background-image: linear-gradient(to right, #161313,#168683,  #21c3c4);
+    margin: 0px;
+}
+
+.intro {
+    background: #EAF0F1;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media only screen and (orientation:portrait) {
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .act {
+        padding-bottom: 100px;
+    }
+}
